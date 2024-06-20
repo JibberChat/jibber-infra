@@ -19,3 +19,8 @@ variable "environment" {
   default = "dev"
 }
 
+variable "subnet_ids" {
+  description = "A list of subnet IDs to use for the EKS cluster"
+  type        = list(string)
+  default     = ["subnet-12345678", "subnet-87654321"]
+}

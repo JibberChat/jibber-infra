@@ -8,8 +8,8 @@ resource "aws_mq_broker" "jibberchat_rabbitmq" {
   host_instance_type = "jddk"
 
   user {
-    username = "jdjd"
-    password = "jdjdk"
+    username = "jdjdksl;;s"
+    password = "jdjdkslllslsss"
   }
 
   tags = {

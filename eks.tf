@@ -8,6 +8,7 @@ module "eks" {
   cluster_version = 1
   vpc_id          = ""
   cluster_name    = format("jibberchat-eks-%s", var.environment)
+  subnet_ids      = var.subnet_ids
 
   tags = {
     "Name"        = "JibberChat EKS Cluster"
