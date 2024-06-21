@@ -12,4 +12,3 @@ output "jibberchat_s3_bucket_name" {
   description = "The name of the S3 bucket for JibberChat"
   value       = aws_s3_bucket.jibberchat_bucket.id
 }
-

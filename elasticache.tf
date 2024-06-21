@@ -10,7 +10,6 @@ resource "aws_elasticache_cluster" "jibberchat_redis" {
   engine_version       = "6.x"
   port                 = 6379
 
-
   tags = {
     "Name"        = "JibberChat Redis Cluster"
     "Environment" = var.environment
