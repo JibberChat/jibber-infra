@@ -9,3 +9,13 @@ variable "ecr_repo_name" {
   type        = string
   default     = "jibber-ecr-registry"
 }
+
+variable "environment" {
+  type    = string
+  default = "dev"
+}
+
+variable "bucket_name" {
+  description = "s3 bucket name"
+  type        = string
+}
