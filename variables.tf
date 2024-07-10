@@ -19,3 +19,15 @@ variable "bucket_name" {
   description = "s3 bucket name"
   type        = string
 }
+
+variable "cluster_name" {
+  description = "Name of the EKS cluster"
+  type        = string
+  default     = "jibber-eks"
+}
+
+variable "vpc_name" {
+  description = "Name of the VPC"
+  type        = string
+  default     = "jibber-vpc"
+}
