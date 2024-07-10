@@ -4,10 +4,10 @@ variable "region" {
   default     = "eu-west-1"
 }
 
-variable "ecr_repo_name" {
+variable "gateway_registry_name" {
   description = "The ECR repository name"
   type        = string
-  default     = "jibber-ecr-registry"
+  default     = "gateway-ecr-registry"
 }
 
 variable "environment" {
