@@ -7,7 +7,7 @@ resource "aws_ecr_repository" "gateway_registry" {
   }
 }
 
-resource "aws_ecr_repository" "gateway_registry" {
+resource "aws_ecr_repository" "user_ecr_registry" {
   name                 = "user-service-ecr-registry"
   image_tag_mutability = "MUTABLE"
 
@@ -16,7 +16,7 @@ resource "aws_ecr_repository" "gateway_registry" {
   }
 }
 
-resource "aws_ecr_repository" "gateway_registry" {
+resource "aws_ecr_repository" "chat_service_registry" {
   name                 = "chat-service-ecr-registry"
   image_tag_mutability = "MUTABLE"
 
@@ -25,7 +25,7 @@ resource "aws_ecr_repository" "gateway_registry" {
   }
 }
 
-resource "aws_ecr_repository" "gateway_registry" {
+resource "aws_ecr_repository" "notification_registry" {
   name                 = "notification-service-ecr-registry"
   image_tag_mutability = "MUTABLE"
 
@@ -34,7 +34,7 @@ resource "aws_ecr_repository" "gateway_registry" {
   }
 }
 
-resource "aws_ecr_repository" "gateway_registry" {
+resource "aws_ecr_repository" "media_registry" {
   name                 = "media-ecr-registry"
   image_tag_mutability = "MUTABLE"
 
